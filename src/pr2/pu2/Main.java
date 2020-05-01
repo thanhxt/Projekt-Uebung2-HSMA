@@ -7,6 +7,18 @@ import java.util.Scanner;
 
 public class Main {
 
+    public static void main(String[] args) throws InterruptedException {
+
+      //  Tier affe = new Tier(23);
+      // affe.start();
+
+        Tier.create().start();
+        Hase.create().start();
+        Hase.create().start();
+        Hase.create().start();
+
+    }
+    /*
     public static void main(String[] args) {
 
        Copy cop = new Copy();
@@ -22,8 +34,6 @@ public class Main {
        System.out.println("Your destination + Path: ");
        fileName2 = sc.next();
 
-
-
 // "C:\\Users\\thanh_000\\Desktop\\Test.txt","C:\\Users\\thanh_000\\Desktop\\Test1.txt"
 
         try{
@@ -36,5 +46,11 @@ public class Main {
            System.out.println("File: Read Error...");
         }
 
+
+
+
+
     }
+
+     */
 }

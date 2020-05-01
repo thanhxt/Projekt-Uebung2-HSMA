@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4961874-b7de-473a-9987-571ff1f67641" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pr2/pu2/Copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pr2/pu2/Tier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pr2/pu2/Hase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pr2/pu1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PU2/pr2/pu2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PU2/pr2/pu2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PU2/pr2/pu2/Tier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PU2/pr2/pu2/Tier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pr2/pu2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pr2/pu2/Tier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pr2/pu2/Tier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="pr2.pu2.Main" />
       <module name="PU2" />
@@ -46,9 +45,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pr2.pu2.Tier" />
+      <module name="PU2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pr2.pu2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Tier" />
       </list>
     </recent_temporary>
   </component>
@@ -66,46 +79,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="744" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588351331216">
+    <state x="744" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588355666713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="744" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588351331216" />
+    <state x="744" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588355666713" />
+    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1588355398670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1245" y="233" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588355398670" />
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587997809968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587997809968" />
-    <state width="914" height="230" key="GridCell.Tab.0.bottom" timestamp="1588351456491">
+    <state width="1025" height="223" key="GridCell.Tab.0.bottom" timestamp="1588367018913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588351456491" />
-    <state width="914" height="230" key="GridCell.Tab.0.center" timestamp="1588351456491">
+    <state width="1025" height="223" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588367018913" />
+    <state width="1025" height="223" key="GridCell.Tab.0.center" timestamp="1588367018913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588351456491" />
-    <state width="914" height="230" key="GridCell.Tab.0.left" timestamp="1588351456491">
+    <state width="1025" height="223" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588367018913" />
+    <state width="1025" height="223" key="GridCell.Tab.0.left" timestamp="1588367018913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588351456491" />
-    <state width="914" height="230" key="GridCell.Tab.0.right" timestamp="1588351456491">
+    <state width="1025" height="223" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588367018913" />
+    <state width="1025" height="223" key="GridCell.Tab.0.right" timestamp="1588367018913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588351456491" />
-    <state width="914" height="230" key="GridCell.Tab.1.bottom" timestamp="1588351456492">
+    <state width="1025" height="223" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588367018913" />
+    <state width="914" height="230" key="GridCell.Tab.1.bottom" timestamp="1588365669779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="230" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588351456492" />
-    <state width="914" height="230" key="GridCell.Tab.1.center" timestamp="1588351456491">
+    <state width="914" height="230" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588365669779" />
+    <state width="914" height="230" key="GridCell.Tab.1.center" timestamp="1588365669779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="230" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588351456491" />
-    <state width="914" height="230" key="GridCell.Tab.1.left" timestamp="1588351456491">
+    <state width="914" height="230" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588365669779" />
+    <state width="914" height="230" key="GridCell.Tab.1.left" timestamp="1588365669779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="230" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588351456491" />
-    <state width="914" height="230" key="GridCell.Tab.1.right" timestamp="1588351456492">
+    <state width="914" height="230" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588365669779" />
+    <state width="914" height="230" key="GridCell.Tab.1.right" timestamp="1588365669779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="230" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588351456492" />
+    <state width="914" height="230" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588365669779" />
     <state x="1136" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1588340163337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
