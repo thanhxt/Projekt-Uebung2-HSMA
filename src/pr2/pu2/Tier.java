@@ -28,6 +28,8 @@ public class Tier extends Thread{
     public void run() {
         for(;lebensenergie>0;lebensenergie--){
             System.out.println(Name + " "+lebensenergie + " Leben");
+            move();
+            System.out.println("Position ("+x+"|"+y+")");
             sleep();
             System.out.println("Schlaf");
         }
@@ -82,6 +84,27 @@ public class Tier extends Thread{
 
 
         return new Tier(i);
+    }
+
+    /**
+     * move method
+     * Tier is moving up, down, left, right or is staying still
+     * depends on integer i
+     */
+    public void move(){
+        Random rnd = new Random();
+
+        int i=  rnd.nextInt(4);
+
+        if(i==1)
+            x++;
+        else if(i==2)
+            x--;
+        else if(i==3)
+            y++;
+        else if(i==4)
+            y--;
+
     }
 
 }

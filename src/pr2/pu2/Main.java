@@ -12,9 +12,6 @@ public class Main {
       //  Tier affe = new Tier(23);
       // affe.start();
 
-        Tier.create().start();
-        Hase.create().start();
-        Hase.create().start();
         Hase.create().start();
 
     }
