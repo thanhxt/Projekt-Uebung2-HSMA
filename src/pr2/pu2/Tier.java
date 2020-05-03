@@ -1,11 +1,13 @@
 package pr2.pu2;
 
-import javax.swing.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class Tier extends Thread{
-    protected String Name;
+    protected String name;
     protected int x,y, lebensenergie;
+
 
 
     static int anzahl = 0;
@@ -16,7 +18,7 @@ public class Tier extends Thread{
      */
     protected Tier(int lebensenergie){
         this.lebensenergie = lebensenergie;
-        Name = setName();
+        name = setName();
     }
 
     /**
@@ -27,7 +29,7 @@ public class Tier extends Thread{
     @Override
     public void run() {
         for(;lebensenergie>0;lebensenergie--){
-            System.out.println(Name + " "+lebensenergie + " Leben");
+            System.out.println(name + " "+lebensenergie + " Leben");
             move();
             System.out.println("Position ("+x+"|"+y+")");
             sleep();
@@ -106,5 +108,20 @@ public class Tier extends Thread{
             y--;
 
     }
+
+    /**
+     * Aufgabe 6
+     *
+     * Eine Liste wird benutzt, da wir in der Liste duplikate zulässig sind
+     * und eine geordnete Darstellung der Tieren angezeigt wird.
+     */
+    public void gehege(String tier){
+        List <String> list = new ArrayList<>();
+        list.add(tier);
+        for(String element : list){
+            System.out.println(element);
+        }
+    }
+
 
 }
