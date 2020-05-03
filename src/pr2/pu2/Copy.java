@@ -1,6 +1,7 @@
 package pr2.pu2;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class Copy {
 
@@ -38,11 +39,6 @@ public class Copy {
 
         return bytes;
     }
-
-
-
-
-
     void fileWrite(String fileName, byte[] buf){
         FileOutputStream fos = null;
 
@@ -63,6 +59,9 @@ public class Copy {
                 }
         }
     }
+
+
+
 
     void fileCopy(String fileName,String fileName2) throws IOException {
         File file = new File(fileName);
@@ -127,7 +126,30 @@ public class Copy {
                 } catch(Exception ex) {
                 }
         }
+    }
+    public void main(){
+        Copy cop = new Copy();
 
+        byte[] inText = new byte[1000];
+        String fileName, fileName2;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("First FileName + Path: ");
+        fileName = sc.next();
+
+        System.out.println("Your destination + Path: ");
+        fileName2 = sc.next();
+
+        try{
+            cop.fileCopy(fileName, fileName2);
+            System.out.println("File copied!");
+        } catch(FileNotFoundException ex){
+            ex.printStackTrace();
+        }
+        catch (IOException ex) {
+            System.out.println("File: Read Error...");
+        }
     }
 
 

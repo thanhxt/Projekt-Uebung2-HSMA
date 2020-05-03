@@ -11,8 +11,14 @@ public class Main {
 
       //  Tier affe = new Tier(23);
       // affe.start();
+        Zoo zoo = new Zoo();
+        ArtenGehege art = new ArtenGehege();
 
-        Hase.create().start();
+        art.einsperren(Hase.create());
+        art.einsperren(Tier.create());
+
+        zoo.main();
+
 
 
     }
