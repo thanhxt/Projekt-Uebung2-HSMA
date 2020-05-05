@@ -1,5 +1,6 @@
 package pr2.pu2;
 
+import java.awt.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -7,19 +8,11 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){
 
-      //  Tier affe = new Tier(23);
-      // affe.start();
-        Zoo zoo = new Zoo();
-        ArtenGehege art = new ArtenGehege();
+     Copy cop = new Copy();
 
-        art.einsperren(Hase.create());
-        art.einsperren(Tier.create());
-
-        zoo.main();
-
-
+     System.out.println(cop.fileRead(C:\\Users\\thanh_000\\Desktop\\Test.txt));
 
     }
     /*

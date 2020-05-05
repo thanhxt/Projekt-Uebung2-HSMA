@@ -17,14 +17,20 @@ public class Zoo implements Iterable {
 
         map.put(hase,gehege.hase);
         map.put(Tier,gehege.tier);
-
+    /*
         //Interable-interface
         for(Map.Entry<String,HashMap>entry : map.entrySet()){
             System.out.println("Key= " + entry.getKey()+", Value =" + entry.getValue());
         }
 
+     */
+
     }
 
+    /**
+     * Iterable Interface?
+     * @return
+     */
     @Override
     public Iterator<Tier> iterator(){
 

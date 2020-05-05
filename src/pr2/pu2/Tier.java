@@ -1,6 +1,7 @@
 package pr2.pu2;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 
@@ -112,16 +113,14 @@ public class Tier extends Thread{
     /**
      * Aufgabe 6
      *
-     * Eine Liste wird benutzt, da wir in der Liste duplikate zulässig sind
-     * und eine geordnete Darstellung der Tieren angezeigt wird.
+     * Eine HashMap wird benutzt, da wir jedes Tier eine bestimmte Lebensenergie hat
+     * effizient und platzsparend. Jeder Key hat eine Value.
      */
-    public void gehege(String tier){
-        List <String> list = new ArrayList<>();
-        list.add(tier);
-        for(String element : list){
-            System.out.println(element);
-        }
-    }
+   public void gehege() {
+       HashMap<String, Integer> zooGehege = new HashMap<>();
+       zooGehege.put(name,lebensenergie);
+   }
+
 
 
 }
